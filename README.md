@@ -160,10 +160,9 @@ In this section you will find all the cancelable and non-cancelable events of th
 - ```ToggleAllyFriendlyFireEvent``` - When a player activates / deactivates friendly fire for clan allies.
 - ```ToggleMemberFriendlyFireEvent``` - When a player activates / deactivates friendly fire for clan members.
 
-
-## Placeholders
-- ```%ybolsa_bolsa%``` - Mostra o valor atual da bolsa.
-
-## API
-### Gerir o valor da bolsa.
-```int valor = yBolsaAPI.ybolsa.getBolsaValor();```
+### Non-cancelable:
+- ```ClanCreateEvent``` - When a player creates a clan.
+- ```ClanDisbandEvent``` - When a player breaks a clan.
+- ```ClanJoinEvent``` - When a player joins a clan.
+- ```ClanLeaveEvent``` - When a player leaves one.
+- ```ModTagEvent``` - When a player changes the color of the clan tag.
