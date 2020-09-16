@@ -8,16 +8,24 @@ The developer API will also be visible, including events and more!
 In this section you will find examples of using the Main API.
 
 ### Getting the main class
-```yClansAPI clans = yClansAPI.yclansapi;```
+```java
+yClansAPI clans = yClansAPI.yclansapi;
+```
 
 ### Getting all clans
-```List<Clan> clanList = clans.getClans();```
+```java
+List<Clan> clanList = clans.getClans();
+```
 
 ### Getting all clan players
-```List<ClanPlayer> clanPlayers = clans.getClanPlayers();```
+```java
+List<ClanPlayer> clanPlayers = clans.getClanPlayers();
+```
 
 ### Checking if the clan exists
-```if (clans.containsClan("TAG")) { //clan exists }```
+```java
+if (clans.containsClan("TAG")) { //clan exists }
+```
 
 ## Placeholders
 - ```%ybolsa_bolsa%``` - Mostra o valor atual da bolsa.
