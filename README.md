@@ -27,6 +27,36 @@ List<ClanPlayer> clanPlayers = clans.getClanPlayers();
 if (clans.containsClan("TAG")) { //clan exists }
 ```
 
+### Getting a player
+```java
+ClanPlayer cPlayer = clans.getPlayer("NickName");
+ClanPlayer cPlayer = clans.getPlayer(player);
+```
+
+### Getting a clan
+```java
+Clan clan = clans.getClan("TAG");
+```
+
+### Getting player KDR
+```java
+double clanPlayerKdr = clans.getKDR(cPlayer);
+```
+
+### Getting clan KDR
+```java
+double clanKdr = clans.getKDR(clan);
+```
+### Getting clan kills
+```java
+int clanKills = clans.getKills(clan);
+```
+
+### Getting clan deaths
+```java
+int clanDeaths = clans.getDeaths(clan);
+```
+
 ## Placeholders
 - ```%ybolsa_bolsa%``` - Mostra o valor atual da bolsa.
 
