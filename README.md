@@ -4,6 +4,7 @@
 Here you will find the information needed to configure Placeholders and tags.
 The developer API will also be visible, including events and more!
 
+
 ## Using the Main API
 In this section you will find examples of using the Main API.
 
@@ -57,6 +58,7 @@ int clanKills = clans.getKills(clan);
 int clanDeaths = clans.getDeaths(clan);
 ```
 
+
 ## Using the ClanPlayer object API
 In this section you will find examples of using the ClanPlayer object API.
 
@@ -84,6 +86,7 @@ int kills = cPlayer.getKills();
 ```java
 int deaths = cPlayer.getDeaths();
 ```
+
 
 ## Using the Clan object API
 In this section you will find examples of using the Clan object API.
@@ -142,6 +145,23 @@ List<String> allies = clan.getAllies();
 ```java
 List<String> rivals = clan.getRivals();
 ```
+
+
+## Events
+In this section you will find all the cancelable and non-cancelable events of the clan.
+
+### - Cancelable:
+```
+BankDepositEvent - When a player deposits money in the bank.
+BankWithdrawEvent - When a player withdraws money from the bank.
+ChestOpenEvent - When a player opens the clan's chest.
+HomeDeleteEvent - When a player deletes the base of the clan.
+HomeGoEvent - When a player teleports to the base of the clan.
+HomeSetEvent - When a player sets the base of the clan.
+ToggleAllyFriendlyFireEvent - When a player activates / deactivates friendly fire for clan allies.
+ToggleMemberFriendlyFireEvent - When a player activates / deactivates friendly fire for clan members.
+```
+
 
 ## Placeholders
 - ```%ybolsa_bolsa%``` - Mostra o valor atual da bolsa.
