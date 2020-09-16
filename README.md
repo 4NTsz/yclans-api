@@ -1,5 +1,12 @@
 # yClans
 
+[![GitHub stars](https://img.shields.io/github/stars/yChusy/yclans-api.svg)](https://github.com/yChusy/yclans-api/stargazers)
+[![GitHub All Releases](https://img.shields.io/github/downloads/yChusy/yclans-api/total.svg?logoColor=fff)](https://github.com/yChusy/yclans-api/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues-raw/yChusy/yclans-api.svg?label=issues)](https://github.com/yChusy/yclans-api/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/yChusy/yclans-api.svg)](https://github.com/yChusy/yclans-api/commit)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5239a5b8f99b4ed49902b6aaee63f1b2)](https://app.codacy.com/app/yChusy/yclans-api?utm_source=github.com&utm_medium=referral&utm_content=heroslender/HeroMagnata&utm_campaign=Badge_Grade_Dashboard)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 ## Overview
 Here you will find the information needed to configure Placeholders and tags.
 The developer API will also be visible, including events and more!
