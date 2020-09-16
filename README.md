@@ -57,6 +57,34 @@ int clanKills = clans.getKills(clan);
 int clanDeaths = clans.getDeaths(clan);
 ```
 
+## Using the ClanPlayer object API
+In this section you will find examples of using the ClanPlayer object API.
+
+### Getting player role
+```java
+Roles role = cPlayer.getRole();
+```
+
+### Checking if the player has a clan
+```java
+if (cPlayer.hasClan()) { //has clan }
+```
+
+### Getting player clan
+```java
+Clan clan = cPlayer.getClan();
+```
+
+### Getting player kills
+```java
+int kills = cPlayer.getKills();
+```
+
+### Getting player deaths
+```java
+int deaths = cPlayer.getDeaths();
+```
+
 ## Placeholders
 - ```%ybolsa_bolsa%``` - Mostra o valor atual da bolsa.
 
