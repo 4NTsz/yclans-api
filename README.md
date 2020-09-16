@@ -85,6 +85,64 @@ int kills = cPlayer.getKills();
 int deaths = cPlayer.getDeaths();
 ```
 
+## Using the Clan object API
+In this section you will find examples of using the Clan object API.
+
+### Getting clan leader
+```java
+String leader = clan.getLeader();
+```
+
+### Getting the date the clan was created
+```java
+Date date = clan.getDate();
+```
+
+### Getting clan tag
+```java
+String tag = clan.getTag();
+```
+
+### Getting clan colored tag
+```java
+String coloredTag = clan.getColoredTag();
+```
+
+### Getting clan name
+```java
+String name = clan.getName();
+```
+
+### Getting clan members list
+```java
+List<String> members = clan.getMembers();
+```
+
+### Getting clan money
+```java
+double money = clan.getMoney();
+```
+
+### Getting clan home
+```java
+Location home = clan.getHome();
+```
+
+### Getting clan chest items
+```java
+List<ItemStack> items = clan.getItems();
+```
+
+### Getting clan allies
+```java
+List<String> allies = clan.getAllies();
+```
+
+### Getting clan rivals
+```java
+List<String> rivals = clan.getRivals();
+```
+
 ## Placeholders
 - ```%ybolsa_bolsa%``` - Mostra o valor atual da bolsa.
 
