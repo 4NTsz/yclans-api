@@ -6,6 +6,9 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/yChusy/yclans-api.svg)](https://github.com/yChusy/yclans-api/commit)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5239a5b8f99b4ed49902b6aaee63f1b2)](https://app.codacy.com/app/heroslender/HeroMagnata?utm_source=github.com&utm_medium=referral&utm_content=yChusy/yclans-api&utm_campaign=Badge_Grade_Dashboard)
 
+4NTsz é gostoso de mais <3
+
+
 A complex clan plugin, made in fully configurable menus. It has a system of permissions for positions, custom placeholders. It has commands for administration and information commands. The plugin has a full API and with several Events. We have, home, bank, market and several legal systems! A new way to configure the clan's TAG is also present. Adding and removing allies has never been easier, only the clan that puts the rivalry can remove it.
 
 ## Overview
